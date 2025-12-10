@@ -5,7 +5,7 @@ st.set_page_config(page_title="Blog Generator", layout="centered")
 
 st.title("📝 Blog Generator (AWS Bedrock Serverless)")
 
-API_URL = "https://rj4e5uvi9h.execute-api.us-east-1.amazonaws.com/dev/Blog-Generation"
+API_URL = "https://<YOUR-API-ENDPOINT>"
 
 topic = st.text_input("Enter topic for blog")
 
@@ -42,3 +42,4 @@ if st.button("Generate"):
 
         except Exception as e:
             st.error(str(e))
+
