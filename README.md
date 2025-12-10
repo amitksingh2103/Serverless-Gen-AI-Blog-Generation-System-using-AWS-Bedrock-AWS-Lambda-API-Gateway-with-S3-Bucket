@@ -1,0 +1,2 @@
+# Serverless-Gen-AI-Blog-Generation-System-using-AWS-Bedrock-AWS-Lambda-API-Gateway-with-S3-Bucket
+This project demonstrates a complete serverless Generative AI application pipeline powered by AWS Bedrock and Meta Llama 3.1. The system dynamically generates 150-word contextual blogs based on user-provided topics and stores them securely in AWS S3 for retrieval, indexing, or downstream content. Users communicates with an AWS API Gateway endpoint.
